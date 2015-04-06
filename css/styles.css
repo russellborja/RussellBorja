@@ -1,0 +1,89 @@
+html,body{height:100%;}
+
+/* splash page*/
+.jumbo_image{
+	width:100%;
+
+}
+
+.jumbo_text{
+	position:absolute;
+	z-index:2;
+	top:15%;
+	left:5%;
+	text-align:center;
+}
+
+.jumbo_text h1{
+	font-size:7vw;
+}
+
+.jumbo_text p{
+	font-size:3vw;
+}
+
+#jumboimage{
+	position:relative;
+	width:100%;
+	height:auto;
+	z-index: 0;
+}
+
+/* featurette styling */
+.featurette-heading{
+	font-size:300%;
+}
+
+.lead{
+	font-size:x-large;
+}
+
+.featurette{
+	padding-left: 15px;
+	padding-right:15px;
+	text-align: center;
+}
+
+.featurette-divider{
+	margin-left:15px;
+	margin-right:15px;
+}
+
+/* Company logo boxes configuration */
+h5{
+    cursor:crosshair; 
+    background-color: #A4A2A4;
+    background-size: 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    color: #fff;
+    position: relative;
+    padding: 20px 20px;
+    min-height: 150px;
+    bottom:0 0 15px 0;
+    i{ color: #fff;font-size: 12px; position: absolute; top: 50%; right: 5%; margin-top: -6px;} 
+    span{ display: none;}
+}
+
+.more_body{
+	text-align: justify;
+}
+
+/* Customize titles under logos*/
+strong{
+	display:block;
+	border-bottom:1px solid #ccc; 
+	padding-bottom:5px;
+}
+
+/* Social media icons */
+.socialtext div{
+	margin-top: 25px;
+	display: inline-block;
+	margin-left: 15px;
+	margin-right:15px;
+}
+
+
+

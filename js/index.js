@@ -27,12 +27,15 @@ $(document).ready(function(){
 	});
 
 	//slideshow
-	$(function(){
-      $("#slides").slidesjs({
-        width: 500,
-        height: 500
-      });
+	$(function() {
+    $("#slider").responsiveSlides({
+    	auto: true,
+    	pager:true,
+        nav: true,
+        speed:500,
+        namespace: "centered-btns"
     });
+  });
 
 });
 

@@ -1,10 +1,36 @@
 html,body{height:100%;}
 
-/* splash page*/
-.jumbo_image{
-	width:100%;
+h2{
+	padding-top: 25px;
+}
+
+/* jumbotron */
+.jumbotron{
+	background: no-repeat center right fixed url("../images/jumbopic.jpg");
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100%;
 
 }
+
+
+.jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; }
+.jumbotron .container > * { text-align: center; color: #FFFFFF; font-size:4vw;}
+.jumbotron .container h1 { 
+	padding-bottom: 20px; 
+	border-bottom: 1px solid #FFFFFF; 
+	border-bottom-color: rgba(255,255,255,0.35); 
+	display: inline-block; 
+	font-size: 9vw;
+}
+
 
 .jumbo_text{
 	position:absolute;
@@ -14,13 +40,7 @@ html,body{height:100%;}
 	text-align:center;
 }
 
-.jumbo_text h1{
-	font-size:7vw;
-}
 
-.jumbo_text p{
-	font-size:3vw;
-}
 
 #jumboimage{
 	position:relative;
@@ -33,6 +53,7 @@ html,body{height:100%;}
 .featurette-heading{
 	font-size:300%;
 }
+
 
 .lead{
 	font-size:x-large;
@@ -47,6 +68,10 @@ html,body{height:100%;}
 .featurette-divider{
 	margin-left:15px;
 	margin-right:15px;
+}
+
+.job-detail{
+	padding-bottom: 25px;
 }
 
 /* Company logo boxes configuration */
@@ -82,7 +107,7 @@ strong{
   position: relative;
   list-style: none;
   overflow: hidden;
-  width: 90%;
+  width: 80%;
   padding: 0;
   margin-right:auto;
   margin-left:auto;

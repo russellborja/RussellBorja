@@ -7,6 +7,9 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+		<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
 
 	</head>
 	<body>
@@ -70,7 +73,7 @@
         <div class="row featurette page-section" >
         	<div class="col-md-2"></div>
         	<div class="col-md-8">
-	          	<h2 class="featurette-heading" style="font-size:4em;">Excerpt.</h2>
+	          	<h2 class="featurette-heading" style="font-size:4em;padding:0px;">Excerpt.</h2>
 	          	<p class="lead">Russell is a 4A Electrical Engineering student at the University of Waterloo who is passionate about creating and exploring. Having previously worked for companies such as BlackBerry, Oracle, and Citigroup, he has honed his software skills and knows what it takes to build quality applications. When he is not studying for his finals or working on the next big thing, he enjoys travelling the world and making new connections.</p>
 	        </div>
 	        <div class="col-md-2"></div>
@@ -128,13 +131,13 @@
 	          	<h2 class="featurette-heading" style="font-size:4em;">Exhibit.</h2>
 	          	<p class="lead">In his spare time, Russell enjoys developing Android applications using both native and web technologies. He hopes to extend his knowledge to build on the iOS platform in the near future.</p>
 	          	<div class="row">
-	          		<div class="col-md-6">
+	          		<div class="col-md-6 app-details">
 	          			<h4 style="background-image:url(images/watchthismovie_icon_nexus.jpg)" class="icon_head" data-preview="url(images/watchthismovie_nexus.jpg)" id="watchthismovie"></h4>
 	          			<p class="more_body">		                
 		                Oftentimes we find ourselves in a dilemma of not knowing what movie to watch. Especially useful in group settings, <b>Watch This Movie</b> uses The Movie Database (tmdb) API to sort the most recent films and DVD releases by rating, box office, release date, or popularity. It allows the user to choose up to four potential movies and between those options it randomly recommends which one to watch. Eliminate the decision making process and allow this app to dictate your next movie night.</p>
 	          		</div>
 	          		<!-- <div class="col-md-5"></div> -->
-		          	<div class="col-md-6">
+		          	<div class="col-md-6 app-details">
 		          		<h4 style="background-image:url(images/saladbowl_icon_nexus.jpg)" class="icon_head" data-preview="url(images/saladbowl_nexus.jpg)" id="saladbowl"></h4>
 		          		<p class="more_body">
 		                <b>(IN PROGRESS)</b> Combining elements of <i>Taboo</i> and <i>Charades</i>, <b>Salad Bowl</b> brings the popular party game on the go. Normally conducted with players drawing words scribbled on pieces of paper from a bowl, hence the name of the game, this app removes the need for physical materials and allows users to play whenever and wherever. The mobile version includes a built-in timer, scorekeeper, and a user-generated word bank. </p>
@@ -151,7 +154,58 @@
 	        <div class="col-md-12">
 	          	<h2 class="featurette-heading" style="color:white;font-size:4em;">Explore.</h2>
 	          	<p class="lead" style="color:white;">"The world is a book and those who do not travel read only one page." &#8212St. Augustine</p>
-	          	<ul class="slides" id="slider">
+
+	          	<div id="links">
+				    <a href="images/amsterdam.jpg" title="Banana" data-gallery>
+				        <img src="images/amsterdam_s.jpg" alt="Banana">
+				    </a>
+				    <a href="images/prague.jpg" title="Apple" data-gallery>
+				        <img src="images/prague_s.jpg" alt="Apple">
+				    </a>
+				    <a href="images/brooklynbridge.jpg" title="Orange" data-gallery>
+				        <img src="images/brooklynbridge_s.jpg" alt="Orange">
+				    </a>
+				</div>
+
+				<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+				<div id="blueimp-gallery" class="blueimp-gallery">
+				    <!-- The container for the modal slides -->
+				    <div class="slides"></div>
+				    <!-- Controls for the borderless lightbox -->
+				    <h3 class="title"></h3>
+				    <a class="prev">‹</a>
+				    <a class="next">›</a>
+				    <a class="close">×</a>
+				    <a class="play-pause"></a>
+				    <ol class="indicator"></ol>
+				    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+				    <div class="modal fade">
+				        <div class="modal-dialog">
+				            <div class="modal-content">
+				                <div class="modal-header">
+				                    <button type="button" class="close" aria-hidden="true">&times;</button>
+				                    <h4 class="modal-title"></h4>
+				                </div>
+				                <div class="modal-body next"></div>
+				                <div class="modal-footer">
+				                    <button type="button" class="btn btn-default pull-left prev">
+				                        <i class="glyphicon glyphicon-chevron-left"></i>
+				                        Previous
+				                    </button>
+				                    <button type="button" class="btn btn-primary next">
+				                        Next
+				                        <i class="glyphicon glyphicon-chevron-right"></i>
+				                    </button>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+
+
+
+
+	          	<!-- <ul class="slides" id="slider">
 		          	<li>
 		          		<img src="images/venice.jpg">
 		          		<p class="caption">Burano, Venice, Italy</p>
@@ -196,7 +250,7 @@
 		          		<img src="images/brooklynbridge.jpg">
 		          		<p class="caption">Brooklyn Bridge, New York</p>
 		          	</li>
-	          	</ul>
+	          	</ul> -->
 	          	
 	        </div>
       	</div>
@@ -231,6 +285,9 @@
 		<script src="js/responsiveslides.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/index.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+		<script src="js/bootstrap-image-gallery.min.js"></script>
 	</body>
 
 </html>

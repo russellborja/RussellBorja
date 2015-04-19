@@ -26,6 +26,26 @@ $(document).ready(function(){
 		$(this).next('.more_body').slideToggle(600);
 	});
 
+	//show app details
+	$('.icon_head').hover(function(){
+		//$(this).css({'backgroundImage':'url(images/watchthismovie_nexus.jpg)'});
+		$(this).css({'backgroundImage':$(this).data('preview')});
+	},
+	function(){
+		if($(this).attr('id') == 'watchthismovie'){
+			$(this).css({'backgroundImage':'url(images/watchthismovie_icon_nexus.jpg)'});
+		}
+		else if($(this).attr('id') == 'saladbowl'){
+			$(this).css({'backgroundImage':'url(images/saladbowl_icon_nexus.jpg)'});
+		}
+		// $(this).css({'backgroundImage':$(this).data('icon')});
+	});
+	$('.icon_head').click(function(){
+		$(this).next('.more_body').slideToggle(600);
+	});
+
+
+
 	//slideshow
 	$(function() {
     $("#slider").responsiveSlides({

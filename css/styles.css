@@ -77,6 +77,8 @@ h2{
 /* Company logo boxes configuration */
 h5{
     cursor:crosshair; 
+    margin-left: auto;
+    margin-right: auto;
     background-color: #A4A2A4;
     background-size: 80%;
     background-position: center center;
@@ -86,6 +88,25 @@ h5{
     position: relative;
     padding: 20px 20px;
     min-height: 150px;
+    max-width: 500px;
+    bottom:0 0 15px 0;
+    i{ color: #fff;font-size: 12px; position: absolute; top: 50%; right: 5%; margin-top: -6px;} 
+    span{ display: none;}
+}
+
+h4{
+    cursor:crosshair; 
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    background-size: 75%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    color: #fff;
+    position: relative;
+    height: 400px;
+    width:350px;
     bottom:0 0 15px 0;
     i{ color: #fff;font-size: 12px; position: absolute; top: 50%; right: 5%; margin-top: -6px;} 
     span{ display: none;}
@@ -93,6 +114,14 @@ h5{
 
 .more_body{
 	text-align: justify;
+	color:black;
+	max-width: 500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.icon_head{
+	margin-top: 0px;
 }
 
 /* Customize titles under logos*/

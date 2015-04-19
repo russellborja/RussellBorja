@@ -49,6 +49,20 @@ h2{
 	z-index: 0;
 }
 
+.nav-container{
+	margin-left:15px;
+	margin-right:15px;
+	padding:0px;
+}
+
+.navbar-header{
+
+}
+
+.rb-logo{
+	padding:0px;
+}
+
 /* featurette styling */
 .featurette-heading{
 	font-size:300%;

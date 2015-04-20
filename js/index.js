@@ -44,7 +44,12 @@ $(document).ready(function(){
 		$(this).next('.more_body').slideToggle(600);
 	});
 
-	
+	$('.thumbnails').hover(function(){
+		$(this).css({'background-color':'black'});
+	},
+	function(){
+		$(this).css({'background-color':''});
+	});
 
 
 

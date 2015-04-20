@@ -44,6 +44,8 @@ $(document).ready(function(){
 		$(this).next('.more_body').slideToggle(600);
 	});
 
+	
+
 
 
 	//slideshow

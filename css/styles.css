@@ -150,6 +150,10 @@ strong{
 	padding-bottom:5px;
 }
 
+.links{
+	margin-bottom:25px;
+}
+
 /* slideshow */
 .slides {
   position: relative;

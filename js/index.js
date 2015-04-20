@@ -47,15 +47,15 @@ $(document).ready(function(){
 
 
 	//slideshow
-	$(function() {
-    $("#slider").responsiveSlides({
-    	auto: true,
-    	pager:true,
-        nav: true,
-        speed:500,
-        namespace: "centered-btns"
-    });
-  });
+	// $(function() {
+ //    $("#slider").responsiveSlides({
+ //    	auto: true,
+ //    	pager:true,
+ //        nav: true,
+ //        speed:500,
+ //        namespace: "centered-btns"
+ //    });
+ //  });
 
 });
 

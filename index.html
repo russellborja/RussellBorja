@@ -156,13 +156,13 @@
 	          	<p class="lead" style="color:white;">"The world is a book and those who do not travel read only one page." &#8212St. Augustine</p>
 
 	          	<div id="links">
-				    <a href="images/amsterdam.jpg" title="Banana" data-gallery>
+				    <a href="images/amsterdam.jpg" title="New Year's Eve, Amsterdam, Netherlands" data-gallery>
 				        <img src="images/amsterdam_s.jpg" alt="Banana">
 				    </a>
-				    <a href="images/prague.jpg" title="Apple" data-gallery>
+				    <a href="images/prague.jpg" title="Prague, Czech Republic" data-gallery>
 				        <img src="images/prague_s.jpg" alt="Apple">
 				    </a>
-				    <a href="images/brooklynbridge.jpg" title="Orange" data-gallery>
+				    <a href="images/brooklynbridge.jpg" title="Brooklyn Bridge, New York" data-gallery>
 				        <img src="images/brooklynbridge_s.jpg" alt="Orange">
 				    </a>
 				</div>
@@ -175,6 +175,7 @@
 				    <h3 class="title"></h3>
 				    <a class="prev">‹</a>
 				    <a class="next">›</a>
+				    <a class="close">×</a>
 				    <a class="play-pause"></a>
 				    <ol class="indicator"></ol>
 				    <!-- The modal dialog, which will be used to wrap the lightbox content -->
@@ -287,16 +288,6 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
 		<script src="js/bootstrap-image-gallery.min.js"></script>
-		<script>
-		document.getElementById('links').onclick = function (event) {
-		    event = event || window.event;
-		    var target = event.target || event.srcElement,
-		        link = target.src ? target.parentNode : target,
-		        options = {index: link, event: event},
-		        links = this.getElementsByTagName('a');
-		    blueimp.Gallery(links, options);
-		};
-</script>
 	</body>
 
 </html>

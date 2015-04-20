@@ -150,8 +150,13 @@ strong{
 	padding-bottom:5px;
 }
 
-.links{
-	margin-bottom:25px;
+#links{
+	margin-bottom:60px;
+}
+
+.thumbnails{
+	padding-top:10px;
+	padding-right:7px;
 }
 
 /* slideshow */

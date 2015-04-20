@@ -62,7 +62,7 @@
                     modal.addClass('in');
                 }, factoryInterface);
             modal.find('.modal-title').text(element.title || String.fromCharCode(160));
-            console.log(element.title)
+            console.log(element.title);
             modal.find('.modal-body').append(element);
             return modal[0];
         },

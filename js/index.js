@@ -45,7 +45,7 @@ $(document).ready(function(){
 	});
 
 	$('.thumbnails').hover(function(){
-		$(this).css({'background-color':'black'});
+		$(this).css({'backgroundImage':$(this).data('title')});
 	},
 	function(){
 		$(this).css({'background-color':''});

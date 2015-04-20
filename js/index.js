@@ -48,7 +48,7 @@ $(document).ready(function(){
 		$(this).attr('src', $(this).data('title'));
 	},
 	function(){
-		$(this).css({'background-color':''});
+		$(this).attr('src', $(this).data('original'));
 	});
 
 

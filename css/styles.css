@@ -5,7 +5,7 @@ h2{
 }
 
 .modal{
-	overflow:hidden;
+	overflow:hidden !important;
 }
 
 /* jumbotron */

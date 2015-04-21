@@ -23,7 +23,17 @@ $(document).ready(function(){
 	$('.more_body').hide();
 	//show job description
 	$('.more_head').click(function(){
+		if($(this).hasClass('active')){
+			
+			$(this).removeClass('active');
+		}
+		else{
+			$('.active').next('.more_body').slideToggle(600);
+			$('.active').removeClass('active');
+			$(this).addClass('active');
+		}
 		$(this).next('.more_body').slideToggle(600);
+		
 	});
 
 	//show app details

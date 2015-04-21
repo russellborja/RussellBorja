@@ -4,6 +4,10 @@ h2{
 	padding-top: 25px;
 }
 
+.modal{
+	overflow:hidden;
+}
+
 /* jumbotron */
 .jumbotron{
 	background: no-repeat center right fixed url("../images/jumbopic.jpg");

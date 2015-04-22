@@ -13,10 +13,10 @@ $(document).ready(function(){
 
 	//company logo highlight colour
 	$('.logo').hover(function(){
-		$(this).css({'background-color':$(this).data('color')});
+		$(this).css({'backgroundImage':$(this).data('hover')});
 	},
 	function(){
-		$(this).css({'background-color':''});
+		$(this).css({'backgroundImage':$(this).data('original')});
 	});
 
 	//hide job description
@@ -35,6 +35,8 @@ $(document).ready(function(){
 		$(this).next('.more_body').slideToggle(600);
 		
 	});
+
+
 
 	//show app details
 	$('.icon_head').hover(function(){

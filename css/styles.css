@@ -15,13 +15,6 @@ h2{
 	width: 40%;
 }
 
-
-@media (max-width: 630px) {
-	.name-container {
-		display: none;
-	}
-}
-
 /* jumbotron */
 .jumbotron{
 	background: no-repeat center fixed url("../images/seattle-profile.jpg");
@@ -34,16 +27,19 @@ h2{
 .jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; }
 .jumbotron .container > * { 
 	text-align: center; 
-	color: #FFFFFF; 
-	font-size:4vw; 
+	color: #FFFFFF;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.jumbotron .container h1 { 
+.main-title { 
 	padding-bottom: 20px; 
 	border-bottom: 1px solid #FFFFFF; 
 	border-bottom-color: rgba(255,255,255,0.35); 
 	display: inline-block; 
 	font-size: 9vw;
+}
+
+.main-subtitle {
+	font-size: 4vw;
 }
 
 .rb-logo{
@@ -55,8 +51,20 @@ h2{
 
 /* featurette styling */
 .featurette-heading{
-	font-size:300%;
+	font-size: 3rem;
 	margin-bottom: 2rem;
+}
+
+.featurette-heading--first{
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	padding: 0;
+}
+
+.featurette-heading--white {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	color: white;
 }
 
 .lead{
@@ -147,6 +155,15 @@ h2{
 		left: 0;
 		width: 100%;
 		height: 100%;
+	}
+	.main-title {
+		font-size: 5rem;
+	}
+	.main-subtitle {
+		font-size: 2rem;
+	}
+	.name-container {
+		display: none;
 	}
 }
 

@@ -7,308 +7,138 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/styles.css">
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-		<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
 		<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
 
 	</head>
 	<body>
-		<!-- navbar stuff -->
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container-fluid nav-container">				
-				<div class="navbar-header">
-					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					
-						<img src="images/rb-logo.png" class="rb-logo navbar-brand">
-						<a href="#" class="navbar-brand">Russell Borja</a>
-					
-						
-					</ul>
-					<!-- <a href="#" class="navbar-brand">Russell Borja</a>
-					<img src="images/rb-logo.png"> -->
-				</div>
-				<div class="collapse navbar-collapse navHeaderCollapse" id="main-nav">
-					<ul class="nav navbar-nav navbar-right" id="nav">
-						<li><a href="#">Home</a></li>
-						<li><a href="#" class="scroll-link" data-id="about">About</a></li>
-						<li><a href="#" class="scroll-link" data-id="work">Work</a></li>
-						<li><a href="#" class="scroll-link" data-id="projects">Projects</a></li>
-						<li><a href="#" class="scroll-link" data-id="travels">Travels</a></li>
-						<li><a href="#" class="scroll-link" data-id="contact">Contact</a></li>
-						<li><a href="https://russellborja.wordpress.com/">Blog</a></li>
-					</ul>	
-				</div>
+		<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="logo-container">
+				<img src="images/rb-logo.png" class="rb-logo navbar-brand">
+				<a href="#" class="navbar-brand name-container">Russell Borja</a>
 			</div>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link scroll-link" href="#" data-id="about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link scroll-link" href="#" data-id="work">Work</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link scroll-link" href="#" data-id="travels">Travels</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Resume</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link scroll-link" href="#" data-id="contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Russell Borja</h1>
+				<p>Web Developer | Explorer</p>
+			</div>
 		</div>
 
-		<!-- jumbotron stuff -->
-		<!-- Main jumbotron for a primary marketing message or call to action -->
-	    
-
-	    <!-- <div class="jumbo_image"> -->
-	    	<!-- <img src="images/sample.jpg" id="jumboimage"> -->
-	    	<div class="jumbotron">
-	    		<div class="container">
-	    			<h1>Russell Borja</h1>
-	        		<p>Developer | Wilderness Explorer</p>
-	    		</div>
-	    	</div>
-	    <!-- </div> -->
-		    
-		<!-- <div class="jumbo_text">   	
-	        	<h1>Russell Borja</h1>
-	        	<p>Developer | Wilderness Explorer</p>
-	        
-	    </div> -->
-		
-	    <!-- START THE FEATURETTES -->
-
-        <div id="about"></div>
-
-        <div class="row featurette page-section" >
+        <div id="about" class="row featurette page-section">
         	<div class="col-md-2"></div>
         	<div class="col-md-8">
-	          	<h2 class="featurette-heading" style="font-size:4em;padding:0px;">Excerpt.</h2>
-	          	<p class="lead">Russell is a 4B Electrical Engineering student at the University of Waterloo who is passionate about creating and exploring. Having previously worked for companies such as Match, BlackBerry, Oracle, he has honed his software skills and knows what it takes to build quality applications. When he is not studying for his finals or working on the next big thing, he enjoys travelling the world and making new connections.</p>
+	          	<h2 class="featurette-heading" style="font-size:4em;padding:0px;">EXCERPT</h2>
+	          	<p class="lead">Russell is a University of Waterloo (Canada) Engineering graduate who is passionate about creating and exploring. Having worked for companies such as Skyscanner, BlackBerry, and Match, he has honed his software skills and knows what it takes to build quality applications. Currently based in Edinburgh (Scotland), he enjoys travelling the world and making new connections.</p>
 	        </div>
 	        <div class="col-md-2"></div>
-	        <!-- <div class="col-md-5">
-	          	<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-	        </div> -->
       	</div>
 
-
-		<div id="work"></div>
-
-      	<div class="row featurette page-section" style="background-color:#6681A3;">
-      		
+      	<div id="work" class="row featurette page-section" style="background-color:#6681A3;">	
 	        <div class="col-md-12">
-	          	<h2 class="featurette-heading" style="color:white;font-size:4em;">Experience.</h2>
+	          	<h2 class="featurette-heading" style="color:white;font-size:4em;">EXPERIENCE</h2>
 	          	<div class="row">
-	          		<div class="col-md-4 job-detail">
-	          			<h5 style="background-image:url(images/match.png)" data-hover="url(images/match_hover.png)" 
-	          			data-original="url(images/match.png)" class="logo more_head"></h5>
-	          			<p class="more_body" style="color:white;">
-		                <strong>Software Developer Intern (Sep-Dec 2015)</strong><br>
+					<div class="col-md-3 col-sm-6 job-detail">
+	          			<div style="background-image:url(images/skyscanner.png)" data-hover="url(images/skyscanner_hover.png)" 
+	          			data-original="url(images/skyscanner.png)" class="company-logo more_head"></div>
+						<p class="more_body">
+						<strong class="work company-name">Skyscanner</strong>
+		                <strong class="work-title work">Software Engineer<br> (September 2016 - present)</strong><br>
+		                Valuable member of Web Infrastructure squad that is responsible for re-architecting the Skyscanner platform from a monolithic codebase to a more decentralized approach using OpenTable’s Open Components technology
+						<br>
+						<br>Composed re-usable front-end JavaScript libraries with ES6 that is consumed by more than 150 developers around the organization/p>
+	          		</div>
+	          		<div class="col-md-3 col-sm-6 job-detail">
+	          			<div style="background-image:url(images/match.png)" data-hover="url(images/match_hover.png)" 
+	          			data-original="url(images/match.png)" class="company-logo more_head"></div>
+	          			<p class="more_body">
+						<strong class="work company-name">Match.com</strong>
+		                <strong class="work-title work">Software Developer Intern<br> (September - December 2015)</strong><br>
 		                Implemented key features on SpeedDate.com such as a photo film strip that allows users to instantly select user profiles, using Ember.js and HTML5/JavaScript/CSS/SASS stack
 						<br>
 						<br>Conceptualized, designed, and developed the backend of <b>Chance</b>, an iOS application that matches users that have physically crossed paths and initiates conversation if certain compatibility criteria are met. Built with Azure/SQLServer/Flask/Python backend while integrating match.com’s existing user framework for the iOS platform</p>
 	          		</div>
-	          		<div class="col-md-4 job-detail">
-	          			<h5 style="background-image:url(images/blackberry.png)" data-hover="url(images/blackberry_hover.png)" 
-	          			data-original="url(images/blackberry.png)" class="logo more_head"></h5>
-	          			<p class="more_body" style="color:white;">
-		                <strong>Enterprise Solutions Developer (Jan-Apr 2015)</strong><br>
+	          		<div class="col-md-3 col-sm-6 job-detail">
+	          			<div style="background-image:url(images/bb_logo.png)" data-hover="url(images/bb_logo_hover.png)" 
+	          			data-original="url(images/bb_logo.png)" class="company-logo more_head"></div>
+	          			<p class="more_body">
+						<strong class="work company-name">BlackBerry</strong>
+		                <strong class="work-title work">Enterprise Solutions Developer<br> (January - April 2015)</strong><br>
 		                Created sample open-sourced, cross-platform mobile apps for the BlackBerry developer community using HTML5, JavaScript, AngularJS, and Apache Cordova. The sample apps showcased how to use BlackBerry API's to create web-based applications.
 						<br>
 						<br>Provided support for major enterprise clients by building custom apps that met customer and BlackBerry Enterprise Server (BES) requirements. These applications were built using web technologies for cross-platform, or using the Android platform depending on the customer.</p>
 	          		</div>
-	          		<div class="col-md-4 job-detail">
-	          			<h5 style="background-image:url(images/oracle.png)" data-hover="url(images/oracle_hover.png)" 
-	          			data-original="url(images/oracle.png)" class="logo more_head"></h5>
-	          			<p class="more_body" style="color:white;">
-		                <strong>Software Developer Intern (May-Aug 2014)</strong><br>
+					<div class="col-md-3 col-sm-6 job-detail">
+	          			<div style="background-image:url(images/oracle_1.png)" data-hover="url(images/oracle_hover.png)" 
+	          			data-original="url(images/oracle_1.png)" class="company-logo more_head"></div>
+	          			<p class="more_body">
+						<strong class="work company-name">Oracle</strong>
+		                <strong class="work-title work">Software Developer Intern <br>(May - August 2014)</strong><br>
 		                Developed a cross-platform tool that automatically installs Oracle e-commerce platform with custom user configurations using Java and Apache Maven.
 						<br>
 						<br>Significantly reduced developer stack setup time, a previously manual procedure used by all members of the team, from 15 minutes to 3 minutes after automation. Helped develop test scripts for e-commerce products using Java and TestNG.</p>
 	          		</div>
 	          	</div>
 	        </div>
-	        
-	        <!-- <div class="col-md-5 col-md-pull-7">
-	          	<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-	        </div> -->
       	</div>
 
-      	<div id="projects"></div>
-
-	    <div class="row featurette page-section">
+	    <div class="row featurette page-section" id="projects">
 	    	<div class="col-md-2"></div>
 	        <div class="col-md-8">
-	          	<h2 class="featurette-heading" style="font-size:4em;">Exhibit.</h2>
-	          	<p class="lead">In his spare time, Russell enjoys developing Android applications using both native and web technologies. He hopes to extend his knowledge to build on the iOS platform in the near future.</p>
-	          	<div class="row">
-	          		<div class="col-md-6 app-details">
-	          			<h4 style="background-image:url(images/watchthismovie_icon_nexus.jpg)" class="icon_head" data-preview="url(images/watchthismovie_nexus.jpg)" id="watchthismovie"></h4>
-	          			<p class="more_body">		                
-		                Oftentimes we find ourselves in a dilemma of not knowing what movie to watch. Especially useful in group settings, <b>Watch This Movie</b> uses The Movie Database (tmdb) API to sort the most recent films and DVD releases by rating, box office, release date, or popularity. It allows the user to choose up to four potential movies and between those options it randomly recommends which one to watch. Eliminate the decision making process and allow this app to dictate your next movie night.</p>
-	          		</div>
-	          		<!-- <div class="col-md-5"></div> -->
-		          	<div class="col-md-6 app-details">
-		          		<h4 style="background-image:url(images/saladbowl_icon_nexus.jpg)" class="icon_head" data-preview="url(images/saladbowl_nexus.jpg)" id="saladbowl"></h4>
-		          		<p class="more_body">
-		                <b>(IN PROGRESS)</b> Combining elements of <i>Taboo</i> and <i>Charades</i>, <b>Salad Bowl</b> brings the popular party game on the go. Normally conducted with players drawing words scribbled on pieces of paper from a bowl, hence the name of the game, this app removes the need for physical materials and allows users to play whenever and wherever. The mobile version includes a built-in timer, scorekeeper, and a user-generated word bank. </p>
-		          	</div>
-		          	
-	          	</div>
+	          	<h2 class="featurette-heading" style="font-size:4em;">EXHIBIT</h2>
+	          	<p class="lead"><a href="http://autotrip.herokuapp.com">AutoTrip</a> is a web application that generates a custom trip itinerary for users given their location, budget, preferences, and length of travel. It leverages multiple API’s including Yelp, FourSquare, Google Maps, and TripAdvisor and a heuristic optimization algorithm (Particle Swarm Optimization) in order to generate the best itineraries possible.
+					Developed as part of Engineering Fourth Year Design Project (FYDP) in a team of five.	
+				</p>
+				<div class="video-wrapper">
+					<img class="video-player" src="images/autotrip-optimized.gif" alt="">
+				</div>
+				
 	        </div>
 	        <div class="col-md-2"></div>
 	    </div>
 
-	    <div id="travels"></div>
-
-      	<div class="row featurette page-section" style="background-color:#2E3B4C;">
+      	<div id="travels" class="row featurette page-section" style="background-color:#2E3B4C;">
 	        <div class="col-md-12">
-	          	<h2 class="featurette-heading" style="color:white;font-size:4em;">Explore.</h2>
-	          	<p class="lead" style="color:white;">"The world is a book and those who do not travel read only one page." &#8212St. Augustine</p>
-
-	          	<div id="links">
-				    <a href="images/amsterdam.jpg" title="New Year's Eve, Amsterdam, Netherlands" data-gallery>
-				        <img src="images/amsterdam_s.jpg" alt="Banana" class="thumbnails"
-				        data-title="images/amsterdam_s_title.jpg" data-original="images/amsterdam_s.jpg">
-				    </a>
-				    <a href="images/prague.jpg" title="Prague, Czech Republic" data-gallery>
-				        <img src="images/prague_s.jpg" alt="Apple" class="thumbnails"
-				        data-title="images/prague_s_title.jpg" data-original="images/prague_s.jpg">
-				    </a>
-				    <a href="images/brooklynbridge.jpg" title="Brooklyn Bridge, New York" data-gallery>
-				        <img src="images/brooklynbridge_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/brooklynbridge_s_title.jpg" data-original="images/brooklynbridge_s.jpg">
-				    </a>
-				    <a href="images/london.jpg" title="Abbey Road, London, England" data-gallery>
-				        <img src="images/london_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/london_s_title.jpg" data-original="images/london_s.jpg">
-				    </a>
-				    <a href="images/lundjump.jpg" title="Lund University, Sweden" data-gallery>
-				        <img src="images/lundjump_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/lundjump_s_title.jpg" data-original="images/lundjump_s.jpg">
-				    </a>
-				    <a href="images/lapland.jpg" title="Husky Sledding, Lapland, Finland" data-gallery>
-				        <img src="images/lapland_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/lapland_s_title.jpg" data-original="images/lapland_s.jpg">
-				    </a>
-				    <a href="images/salzburg.jpg" title="Salzburg, Austria" data-gallery>
-				        <img src="images/salzburg_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/salzburg_s_title.jpg" data-original="images/salzburg_s.jpg">
-				    </a>
-				    <a href="images/sanfrancisco.jpg" title="San Francisco, California" data-gallery>
-				        <img src="images/sanfrancisco_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/sanfrancisco_s_title.jpg" data-original="images/sanfrancisco_s.jpg">
-				    </a>
-				    <a href="images/tallin.jpg" title="Tallinn, Estonia" data-gallery>
-				        <img src="images/tallin_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/tallin_s_title.jpg" data-original="images/tallin_s.jpg">
-				    </a>
-				    <a href="images/trolltunga.jpg" title="Trolltunga, Norway" data-gallery>
-				        <img src="images/trolltunga_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/trolltunga_s_title.jpg" data-original="images/trolltunga_s.jpg">
-				    </a>
-				    <a href="images/venice.jpg" title="Burano, Venice, Italy" data-gallery>
-				        <img src="images/venice_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/venice_s_title.jpg" data-original="images/venice_s.jpg">
-				    </a>
-
-				    <a href="images/castle.jpg" title="Neuschwanstein Castle, Germany" data-gallery>
-				        <img src="images/castle_s.jpg" alt="Orange" class="thumbnails" 
-				        data-title="images/castle_s_title.jpg" data-original="images/castle_s.jpg">
-				    </a>
-				    <a href="images/copenhagen.jpg" title="Copenhagen, Denmark" data-gallery>
-				        <img src="images/copenhagen_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/copenhagen_s_title.jpg" data-original="images/copenhagen_s.jpg">
-				    </a>
-				    <a href="images/geneva.jpg" title="United Nations Headquarters" data-gallery>
-				        <img src="images/geneva_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/geneva_s_title.jpg" data-original="images/geneva_s.jpg">
-				    </a>
-				    <a href="images/hamburg.jpg" title="Hamburg, Germany" data-gallery>
-				        <img src="images/hamburg_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/hamburg_s_title.jpg" data-original="images/hamburg_s.jpg">
-				    </a>
-				    <a href="images/helsinki.jpg" title="Helsinki, Finland" data-gallery>
-				        <img src="images/helsinki_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/helsinki_s_title.jpg" data-original="images/helsinki_s.jpg">
-				    </a>
-				    <a href="images/milan.jpg" title="Milan, Italy" data-gallery>
-				        <img src="images/milan_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/milan_s_title.jpg" data-original="images/milan_s.jpg">
-				    </a>
-				    <a href="images/montreux.jpg" title="Montreux, Switzerland" data-gallery>
-				        <img src="images/montreux_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/montreux_s_title.jpg" data-original="images/montreux_s.jpg">
-				    </a>
-				    <a href="images/munich.jpg" title="Munich, Germany" data-gallery>
-				        <img src="images/munich_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/munich_s_title.jpg" data-original="images/munich_s.jpg">
-				    </a>
-				    <a href="images/brussels.jpg" title="Brussels, Belgium" data-gallery>
-				        <img src="images/brussels_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/brussels_s_title.jpg" data-original="images/brussels_s.jpg">
-				    </a>
-				    <a href="images/stockholm.jpg" title="Stockholm, Sweden" data-gallery>
-				        <img src="images/stockholm_s.jpg" alt="Orange" class="thumbnails"
-				        data-title="images/stockholm_s_title.jpg" data-original="images/stockholm_s.jpg">
-				    </a>
-				    <a href="images/lakegarda.png" title="Lake Garda, Italy" data-gallery>
-				        <img src="images/lakegarda_s.png" alt="Orange" class="thumbnails"
-				        data-title="images/lakegarda_s_title.png" data-original="images/lakegarda_s.png">
-				    </a>
-				    <a href="images/lisbon.png" title="Lisbon, Portugal" data-gallery>
-				        <img src="images/lisbon_s.png" alt="Orange" class="thumbnails"
-				        data-title="images/lisbon_s_title.png" data-original="images/lisbon_s.png">
-				    </a>
-				    <a href="images/dallas.png" title="Dallas, Texas" data-gallery>
-				        <img src="images/dallas_s.png" alt="Orange" class="thumbnails"
-				        data-title="images/dallas_s_title.png" data-original="images/dallas_s.png">
-				    </a>
-				</div>
-
-				<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-				<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-				    <!-- The container for the modal slides -->
-				    <div class="slides"></div>
-				    <!-- Controls for the borderless lightbox -->
-				    <h3 class="title"></h3>
-				    <a class="prev">‹</a>
-				    <a class="next">›</a>
-				    <a class="close">×</a>
-				    <a class="play-pause"></a>
-				    <ol class="indicator"></ol>
-				    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-				    <div class="modal fade">
-				        <div class="modal-dialog">
-				            <div class="modal-content">
-				               <!--  <div class="modal-header">
-				                    <button type="button" class="close" aria-hidden="true">&times;</button>
-				                    <h4 class="modal-title"></h4>
-				                </div> -->
-				                <div class="modal-body next"></div>
-				                <!-- <div class="modal-footer">
-				                    <button type="button" class="btn btn-default pull-left prev">
-				                        <i class="glyphicon glyphicon-chevron-left"></i>
-				                        Previous
-				                    </button>
-				                    <button type="button" class="btn btn-primary next">
-				                        Next
-				                        <i class="glyphicon glyphicon-chevron-right"></i>
-				                    </button>
-				                </div> -->
-				            </div>
-				        </div>
-				    </div>
-				</div>
-
-
-
-
-	          	
+	          	<h2 class="featurette-heading" style="color:white;font-size:4em;">EXPLORE</h2>
+	          	<p class="lead" style="color:white;">33 countries and counting. Check out his <a href="https://www.youtube.com/user/russellcborja">YouTube channel</a> for his latest travel vlogs!</p>
+				
+				<div class="video-wrapper">
+					<iframe class= "video-player" width="560" height="315" src="https://www.youtube.com/embed/TeNbk5Jkh3E" frameborder="0" allowfullscreen></iframe>
+				</div>	          	
 	        </div>
       	</div>
 
-      	
-
-      	<div id="contact"></div>
-
-	    <div class="row featurette page-section">
+	    <div id="contact" class="row featurette page-section">
 	        <div class="col-md-12">
-	        	<h2 class="featurette-heading" style="font-size:4em;">Express.</h2>
+	        	<h2 class="featurette-heading" style="font-size:4em;">EXPRESS</h2>
 	        	<div class="socialtext">
 		          	<div><a href="https://instagram.com/russellborja/"><i class="fa fa-instagram fa-4x"></i><p class="socialtext">@russellborja</p></a></div>
-		          	<div><a href="https://twitter.com/russellborja/"><i class="fa fa-twitter fa-4x"></i><p class="socialtext">@russellborja</p></a></div>
+		          	<div><a href="https://www.youtube.com/user/russellcborja"><i class="fa fa-youtube fa-4x"></i><p class="socialtext">russellcborja</p></a></div>
 		          	<div><a href="https://www.linkedin.com/in/russellborja"><i class="fa fa-linkedin fa-4x"></i><p class="socialtext">Russell Borja</p></a></div>
 		          	<div><a href="https://github.com/russellborja/"><i class="fa fa-github fa-4x"></i><p class="socialtext">russellborja</p></a></div>
 		          	<div><a href="mailto:russellborja@gmail.com"><i class="fa fa-envelope fa-4x"></i><p class="socialtext">russellborja@gmail.com</p></a></div>
@@ -318,20 +148,13 @@
 
 	    <footer class="footer">
 		    <div class="container" style="text-align:center;margin-top:30px;">
-		       	<p class="text-muted">Copyright &#169 2015 Russell Borja. All rights reserved. Powered by Twitter Bootstrap.</p>
+		       	<p class="text-muted">Copyright &#169 2017 Russell Borja. All rights reserved. Powered by Twitter Bootstrap.</p>
 		    </div>
     	</footer>
 
-	      <!-- /END THE FEATURETTES -->
-
 		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-		<script src="js/responsiveslides.min.js"></script>
-		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/index.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-		<script src="js/bootstrap-image-gallery.min.js"></script>
 	</body>
-
 </html>

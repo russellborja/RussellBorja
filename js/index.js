@@ -6,13 +6,8 @@ $(document).ready(function(){
 		scrollToID('#'+id, 750);
 	});
 
-	$('.nav-toggle').on('click', function(event){
-		event.preventDefault();
-		$('#main-nav').toggleClass("open");
-	});
-
 	//company logo highlight colour
-	$('.logo').hover(function(){
+	$('.company-logo').hover(function(){
 		$(this).css({'backgroundImage':$(this).data('hover')});
 	},
 	function(){
@@ -33,7 +28,6 @@ $(document).ready(function(){
 			$(this).addClass('active');
 		}
 		$(this).next('.more_body').slideToggle(600);
-		
 	});
 
 
@@ -62,35 +56,10 @@ $(document).ready(function(){
 	function(){
 		$(this).attr('src', $(this).data('original'));
 	});
-
-
-
-	//slideshow
-	// $(function() {
- //    $("#slider").responsiveSlides({
- //    	auto: true,
- //    	pager:true,
- //        nav: true,
- //        speed:500,
- //        namespace: "centered-btns"
- //    });
- //  });
-
 });
 
 function scrollToID(id, speed){
 	var offSet = 50;
 	var targetOffset = $(id).offset().top - offSet;
-	var mainNav = $('#main-nav');
 	$('html,body').animate({scrollTop:targetOffset}, speed);
-	if(mainNav.hasClass("open")){
-		mainNav.css("height", "1px").removeClass("in").addClass("collapse");
-		mainNav.removeClass("open");
-	}
-}
-
-if(typeof console==="undefined"){
-	console = {
-		log: function(){}
-	};
 }
